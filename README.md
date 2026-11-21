@@ -18,8 +18,8 @@ Trabalho com sistemas de gestão para varejo e serviços (lojas, mercados, panif
 
 | Projeto | Descrição | Status |
 |---|---|---|
-| [delphi-horse-api](https://github.com/kauelessa/delphi-horse-api) | API REST em Delphi com Horse + Firebird, autenticação JWT e arquitetura em camadas | 🚧 Em desenvolvimento |
-| [delphi-emissor-nfe](https://github.com/kauelessa/delphi-emissor-nfe) | Emissor de NF-e e NFC-e em Delphi VCL com ACBr + Firebird (homologação SEFAZ) | 🚧 Em desenvolvimento |
+| [delphi-horse-api](https://github.com/kauelessa/delphi-horse-api) | API REST em Delphi com Horse + Firebird, autenticação JWT e arquitetura em camadas | ✅ Concluído |
+| [delphi-emissor-nfe](https://github.com/kauelessa/delphi-emissor-nfe) | Emissor de NF-e e NFC-e em Delphi VCL com ACBr + Firebird (homologação SEFAZ) | ✅ Concluído |
 | _Em breve_ | Sistema desktop VCL consumindo a API | 📝 Planejado |
 | _Em breve_ | App mobile FireMonkey consumindo a API | 📝 Planejado |
 
