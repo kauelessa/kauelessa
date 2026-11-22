@@ -1,4 +1,6 @@
-# Bem-vindo ao meu portfólio! Me chamo Kauê Lessa. Fique à vontade para explorar.
+# Kauê Lessa 👍
+
+Bem-vindo ao meu portfólio! Fique à vontade para explorar.
 
 **Desenvolvedor Delphi Sênior** · Colombo, PR · desde 2015 criando ERPs, sistemas desktop e mobile.
 
