@@ -13,19 +13,21 @@ Trabalho com sistemas de gestão para varejo e serviços (lojas, mercados, panif
 | Linguagem / IDE | Delphi (Object Pascal), RAD Studio, VCL, FireMonkey, DevExpress |
 | Bancos de dados | Firebird, SQL Server, MySQL, Oracle (PL/SQL — básico) |
 | Fiscal | NF-e, NFC-e, CT-e, MDF-e, ACBr |
-| Back-end | APIs REST (Horse), JSON, autenticação JWT |
+| Back-end | APIs REST (Horse), JSON, autenticação JWT, FireDAC |
+| Relatórios | Fortes Report, FastReport |
+| Testes | DUnitX |
 | Ferramentas | Git, GitHub, VS Code, Claude Code |
 
 ## 📂 Portfólio
 
-Os projetos formam um ecossistema: o **cliente desktop** cria os pedidos na **API**, e o **emissor** lê esses pedidos e emite a **NF-e**.
+Os projetos formam um ecossistema: o pedido nasce no **app de força de vendas** ou no **cliente desktop**, passa pela **API**, é faturado como **NF-e** no **emissor**, e a API recebe o aviso de que o pedido foi faturado.
 
 | Projeto | Descrição | Status |
 |---|---|---|
-| [delphi-horse-api](https://github.com/kauelessa/delphi-horse-api) | API REST em Delphi com Horse + Firebird, autenticação JWT e arquitetura em camadas; recebe os pedidos do cliente e os entrega ao emissor | ✅ Concluído |
-| [delphi-vcl-client](https://github.com/kauelessa/delphi-vcl-client) | Cliente desktop em Delphi VCL + DevExpress: login JWT, clientes, produtos e pedidos com baixa de estoque, enviados para faturamento no emissor | ✅ Concluído |
-| [delphi-emissor-nfe](https://github.com/kauelessa/delphi-emissor-nfe) | Emissor de NF-e e NFC-e em Delphi VCL com ACBr + Firebird (homologação SEFAZ) que lê os pedidos do cliente e emite a nota | ✅ Concluído |
-| _Em breve_ | App mobile FireMonkey consumindo a API | 📝 Planejado |
+| [delphi-horse-api](https://github.com/kauelessa/delphi-horse-api) | API REST em Delphi com Horse + Firebird, JWT e arquitetura em camadas; centraliza os pedidos, sincroniza o app offline, recebe o aviso de faturamento do emissor e gera relatórios em PDF | ✅ Concluído |
+| [delphi-vcl-client](https://github.com/kauelessa/delphi-vcl-client) | Cliente desktop em Delphi VCL + DevExpress: clientes, produtos e gestão dos pedidos (inclusive os do app, com vendedor, local e assinatura), enviados para faturamento no emissor | ✅ Concluído |
+| [delphi-emissor-nfe](https://github.com/kauelessa/delphi-emissor-nfe) | Emissor de NF-e e NFC-e em Delphi VCL com ACBr + DevExpress + Firebird (homologação SEFAZ); fatura os pedidos da API e avisa quando a nota é autorizada ou cancelada | ✅ Concluído |
+| delphi-fmx-forca-vendas | App de força de vendas em FireMonkey (Windows e Android): pedidos na rua, mesmo sem internet, sincronizados com a API e acompanhados até o faturamento | 🚧 Em construção |
 
 ## 🎓 Formação
 
